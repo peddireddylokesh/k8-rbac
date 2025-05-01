@@ -1,4 +1,4 @@
-<!-- # RBAC
+# RBAC
 
 REGION_CODE=us-east-1
 CLUSTER_NAME=expense
@@ -12,4 +12,4 @@ eksctl utils associate-iam-oidc-provider \
     --region $REGION_CODE \
     --cluster $CLUSTER_NAME \
     --approve
-``` -->
+```
